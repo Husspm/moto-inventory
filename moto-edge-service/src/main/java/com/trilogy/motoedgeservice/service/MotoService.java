@@ -19,7 +19,7 @@ public class MotoService {
         return client.getAll();
     }
 
-    public Motorcycle findOne(long id) {
+    public Motorcycle findOne(Integer id) {
         return client.findOne(id);
     }
 

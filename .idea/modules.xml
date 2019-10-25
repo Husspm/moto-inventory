@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/MotoInventory/MotoInventory.iml" filepath="$PROJECT_DIR$/MotoInventory/MotoInventory.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/moto-edge-service/moto-edge-service.iml" filepath="$PROJECT_DIR$/moto-edge-service/moto-edge-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/moto-inventory.iml" filepath="$PROJECT_DIR$/.idea/moto-inventory.iml" />

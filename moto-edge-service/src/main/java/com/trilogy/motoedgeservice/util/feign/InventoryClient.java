@@ -10,8 +10,8 @@ import java.util.List;
 
 @FeignClient(name = "moto-inventory")
 public interface InventoryClient {
-    @GetMapping("/moto")
+    @GetMapping("/motorcycle")
     public List<Motorcycle>getAll();
-    @GetMapping("moto/{id}")
-    public Motorcycle findOne(@PathVariable long id);
+    @GetMapping("motorcycle/{id}")
+    public Motorcycle findOne(@PathVariable Integer id);
 }

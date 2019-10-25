@@ -74,6 +74,7 @@ public class MotoControllerTest {
 
     @Test
     public void makeAPurchase() throws Exception {
+
         Motorcycle bikeOne = new Motorcycle();
         bikeOne.setPrice(BigDecimal.valueOf(4000.99));
         bikeOne.setVin("12345");
